@@ -1,0 +1,5 @@
+﻿  main.cpp
+C:\Users\Gorilla Rig\source\repos\battleships\Battleships - Michelle Zhang\main.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Gorilla Rig\source\repos\battleships\Battleships - Michelle Zhang\main.cpp(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Gorilla Rig\source\repos\battleships\Battleships - Michelle Zhang\main.cpp(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Battleships - Michelle Zhang.vcxproj -> C:\Users\Gorilla Rig\source\repos\battleships\Battleships - Michelle Zhang\Debug\Battleships - Michelle Zhang.exe
