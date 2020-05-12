@@ -2,6 +2,7 @@
 #include <iostream>;
 #include <windows.h>;
 #include <string>;
+//#include "gameBoard.h";
 
 using namespace std;
 
@@ -52,20 +53,7 @@ class GameBoard {
 	public:
 		string gameBoard[12][12];
 
-		void drawBoard(GameBoard gb) {
-			for (int i = 0; i < 11; i++) {
-				if (i == 0) cout << "     ";
-				for (int j = 0; j < 12; j++) {
-					if (j == 11) {
-						cout << endl << endl;
-					}
-					cout << gb.gameBoard[i][j];
-					cout << "    ";
-				}
-			}
-		cout << endl;
-		cout << "        To start, place your ships on the board...";
-	}// end of drawBoard();
+		
 
 	void initialise() {
 		cout << endl;
@@ -157,12 +145,26 @@ class GameBoard {
 		}
 	}// end of initialise();
 };
-
+void drawBoard(GameBoard gb) {
+	for (int i = 0; i < 11; i++) {
+		if (i == 0) cout << "     ";
+		for (int j = 0; j < 12; j++) {
+			if (j == 11) {
+				cout << endl << endl;
+			}
+			cout << gb.gameBoard[i][j];
+			cout << "    ";
+		}
+	}
+	cout << endl;
+	cout << "        To start, place your ships on the board...";
+}// end of drawBoard();
 int main() {
 	//constructor
 	GameBoard gameBoard;
 	gameBoard.initialise();
-	gameBoard.drawBoard(gameBoard);
+	
+	drawBoard(gameBoard);
 	GotoXY(60, 5);
 
 
