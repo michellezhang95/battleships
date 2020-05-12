@@ -39,9 +39,6 @@ void GotoXY(int, int);
 
 // class constructor to also take in the ship coordinates in a data structure
 // check if input provided for different ships otherwise set default
-class Player {
-
-};
 
 //game board class
 class GameBoard {
@@ -52,8 +49,6 @@ class GameBoard {
 	string patrol_boat[2] = { "P","P" };
 	public:
 		string gameBoard[12][12];
-
-		
 
 	void initialise() {
 		cout << endl;

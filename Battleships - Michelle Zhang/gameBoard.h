@@ -5,8 +5,6 @@
 class gameBoard
 {
 
-public:
-	void initialise();
 	
 };
 
