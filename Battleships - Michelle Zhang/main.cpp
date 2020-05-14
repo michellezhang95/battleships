@@ -5,6 +5,7 @@
 #include "Player.h";
 #include "GameBoard.h";
 #include "GameController.h";
+#include "Menu.h";
 
 using namespace std;
 
@@ -33,7 +34,8 @@ int main() {
 	//default constructors 
 	GameController gameControl;
 	GameBoard gameBoard;
-
+	Menu menu;
+	
 	//initialise the gameBoard with an empty grid awaiting player input
 	gameBoard.initialise();
 	

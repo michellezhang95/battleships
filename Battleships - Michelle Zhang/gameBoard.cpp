@@ -3,8 +3,12 @@
 GameBoard::GameBoard()
 {
 }
+GameBoard::~GameBoard()
+{
+}
 void GameBoard::initialise()
 {
+	system("cls");
 	cout << endl;
 			//
 			cout << "		Player Board" << endl << endl;
@@ -100,6 +104,10 @@ void GameBoard::initialise()
 void GameBoard::updateBoard(bool,int,char)
 {
 
+}
+//overload to include debug mode functionality
+void GameBoard::updateBoard(bool player, int x, char y, int debug)
+{
 }
 //default parameter
 void GameBoard::updateBoard()
